@@ -1,1 +1,17 @@
- 
+ *{
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0
+ }
+
+ header {
+    list-style-type: none;
+    display:flex ;
+ }
+
+ nav {
+    float: right;
+ }
