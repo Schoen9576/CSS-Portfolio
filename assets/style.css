@@ -53,7 +53,8 @@
   }
 
   main {
-      display: block
+      display: flex;
+      flex-wrap: wrap;
   }
 
   section {
@@ -62,10 +63,9 @@
   }
 
   #majorProject {
-    border: rebeccapurple solid;
-    flex: 0 0 300px;
-    padding: 1% ;
-    margin: 0 50px 10px 50px;
+    padding: 2% ;
+    margin: 0 90px 10px 50px;
+    background-color:rgba(9,9,121,1);
   }
 
   footer ul{
@@ -84,6 +84,7 @@
       border-width: 15px;
       padding: 1%
   }
+
   section p {
       margin: 2%;
   }
@@ -100,4 +101,32 @@
   footer{
       display: flex;
       flex-direction: column;
+  }
+
+  div p {
+      font-weight: bold;
+  }
+
+  .lesserProjects{
+      border: rebeccapurple solid;
+      padding: 2% ;
+      margin: 0 25px 10px 25px;
+      background-color: rgba(0,212,255,1);
+  }
+
+  .work{
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      border: rebeccapurple solid;
+      margin-left: 1%;
+  }
+
+  #projects {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 2% ;
+      margin: 0 25px 10px 25px;
   }
