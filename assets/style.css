@@ -52,11 +52,52 @@
       font-size: 200%;
   }
 
-  main{
+  main {
       display: block
   }
 
-  section{
+  section {
       display: flex;
+      margin: 2%;
   }
 
+  #majorProject {
+    border: rebeccapurple solid;
+    flex: 0 0 300px;
+    padding: 1% ;
+    margin: 0 50px 10px 50px;
+  }
+
+  footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 300px;
+    margin: 2%;
+    font-weight: bold;
+    color: blueviolet;
+  }
+
+  section h2 {
+      font-weight: bold;
+      font-size: 200%;
+      border-right: lightcoral solid;
+      border-width: 15px;
+      padding: 1%
+  }
+  section p {
+      margin: 2%;
+  }
+
+  footer h2 {
+    margin: auto;
+    font-weight: bold;
+    font-size: 200%;
+    border-bottom: lightcoral solid;
+    border-width: 15px;
+    padding: 1%;
+  }
+
+  footer{
+      display: flex;
+      flex-direction: column;
+  }
